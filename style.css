@@ -1,0 +1,79 @@
+body {
+  background-color: #2f2623;
+  color: #f6f5f2;
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 10px;
+}
+
+.page-heading {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* About section styles */
+.about-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Photo styling */
+.photo-section img {
+  max-width: 200px;
+  height: auto;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+/*experiance box styling */
+.common-box {
+  background-color: #f6f5f2;
+  color: #2f2623;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  max-width: 900px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/*button styling */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #f6f5f2;
+  color: #2f2623;
+  border: solid;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* RESPONSIVE STYLING */
+@media (max-width: 768px) {
+  
+
+  .photo-section {
+    order: -1;
+    margin: 0 auto 15px;
+  }
+
+  .photo-section img {
+    margin-left: 0;
+  }
+
+  }
