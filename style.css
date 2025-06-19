@@ -52,6 +52,7 @@ th, td {
 button {
   display: block;
   margin: 20px auto;
+  text-decoration: none;
   padding: 10px 20px;
   font-size: 1rem;
   background-color: #f6f5f2;
